@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+.menu{
+    display: flex;
+    float: right;
+    /* overflow: auto; */
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.87); 
+    padding-right: 15px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+.menu-image i{
+    padding-right: 15px;
+}
+.menu img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.search .google{
+    margin-top: 92px;
+}
+.input-container{
+    width: 582px;
+    color: #222;
+    border: 1px solid #dfe1e5;
+    font-size: 13px;
+    padding: 14px;
+    border-radius: 24px;  
+}
+.input-container:hover, .input-container:focus{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+.input-container img{
+    height: 24px;
+    width: 24px;
+    padding: 0 8px;
+}
+
+input{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 2px;
+    font-size: 16px;
+    width: 83%;
+    align-self: center;
+
+}
+.input-container input[type=text]:focus{
+    border: none !important;
+    outline: none;
+}
+
+.button-items{
+    padding-top: 18px;
+    display: block;
+    text-align: -webkit-center;
+
+}
+
+ button{
+    background-color:  #f2f2f2;
+    color: #5F6368;    
+    font-size: 14px;   
+    height: 36px;   
+    padding: 0 16px;   
+    background-image: linear-gradient(top,#f5f5f5,#f1f1f1);   
+    border: 1px solid transparent;   
+    box-shadow: 0 1px 1px rgba(0,0,0,0);   
+    color: #222;
+    margin: 11px 4px;
+ }
+ button:hover{
+    background-image:linear-gradient(top,#f8f8f8,#f1f1f1);
+    border: 1px solid #c6c6c6; 
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);  
+    color: #222;
+ }
+
+ 
